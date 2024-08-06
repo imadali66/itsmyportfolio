@@ -1,0 +1,95 @@
+.headingSkillSec{ 
+    position: relative;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.headingSkillSec .h1{
+    color: rgba(0, 0, 255, 0.645);
+    font-weight: bold;
+    font-size: 39px;
+}
+
+#string {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#cursor {
+    position: absolute;
+    border-radius: 30% 70% 59% 41% / 75% 61% 39% 25%;
+    width: 50px;
+    height: 50px;
+    background: #ad5389;
+    background: -webkit-linear-gradient(to right,
+            #3c1053,
+            #ad5389);
+    background: linear-gradient(to right,
+            #3c1053,
+            #ad5389); 
+    color: rgba(255, 255, 255, 0.453);
+    line-height: 20px;
+    padding:4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+
+ 
+
+
+/* Service Code Start */  
+.Services{
+    display: flex;
+    padding: 20px 0px;
+    gap: 12px;
+}
+.itemSer{
+    height: 100%;
+    width: 33%; 
+    border-top: 2px solid #fff;
+    border-radius: 9% 9% 3% 9% / 9% 9% 3% 9%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 23px;  
+}
+.h-itemsServ {
+    font-size: 40px;
+    font-family: "Playwrite AR", cursive;
+    padding: 8px 0px;
+    margin: 8px 0px;
+}
+.iconImg img{
+    height: 300px ;
+    width: 300px;
+    border-radius: 13% 17% 15% 14% / 17% 16% 13% 10%;
+    cursor: pointer;
+    transition: 0.3s 0.1s ease-in;
+}
+.iconImg img:hover{
+    box-shadow: -2px 0px 15px white;
+}
+.buttonItemSer
+{
+    color: white;
+    border: 2px solid #ffffff63;
+    padding: 4px 17px;
+    border-radius: 7px;
+    font-weight: 600;
+    padding: 4px 22px;
+    position: relative;
+    top: 20px;
+    right: 90px;
+    font-family: 'Comfortaa', cursive;
+    transition: 0.8s ease-in-out;
+}
+.buttonItemSer:hover
+{
+    background: black;
+    border: 2px solid #fff;
+}

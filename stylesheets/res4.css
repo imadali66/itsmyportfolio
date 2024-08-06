@@ -1,0 +1,48 @@
+@media screen and (max-width:1050px) {
+    #footer {
+        display: flex; 
+        background: #4005ff0d;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerItems {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .footerItems {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .textFooter div {
+        color: rgb(0, 110, 255);
+        font-family: "Mukta", sans-serif;
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+    .buttonFooter button {
+        border: 2px solid rgba(0, 0, 0, 0.303);
+        padding: 5px 0px;
+        font-size: 12px;
+        border-radius: 8px;
+        letter-spacing: 2px;
+        margin: 2px 7px;
+        background-color: transparent;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
+    .contFooter {
+        /* border: 2px solid #111; */
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        /* padding: 23px; */
+        justify-content: center;
+    }
+}

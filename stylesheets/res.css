@@ -1,0 +1,94 @@
+@media screen and (max-width: 1080px) {
+    .navMain {
+        display: none;
+    }
+
+    .hamBurger {
+        display: flex;
+        justify-content: space-around;
+    }
+    .conItems {
+        /* border: 2px solid black; */
+        width: 100%;
+        height: 50%;
+    }
+    .conLeft{
+        height: 900px;
+    }
+    .conRight-d1 {
+        height: 400px;
+        width: 400px;
+        /* border: 2px solid #111; */
+        border-radius: 50% 20% 50% 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #0a404142;
+        position: relative;
+        top: 97px;
+    }
+    /* .conRight{
+        overflow: hidden;
+    } */
+    #mainContent {
+        height: 120vh;
+        width: 100%;
+        display: flex;
+        position: relative;
+        top: 50px;
+        gap: 5px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mainBackground {
+        height: 167vh; 
+    }
+    #cursorAbout{
+        display: none;
+    }
+    #cursor{
+        display: none;
+    }
+}
+@media screen and (max-width: 650px){
+    .loremConleft {
+        width: 526px;
+        padding: 12px 0px;
+        margin: 12px 0px;
+        font-family: "Work Sans", sans-serif;
+        font-size: 18px;
+        flex-wrap: wrap;
+        line-height: 25px;
+        display: flex;
+        width: 406px;
+    }
+    .conLeft {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        z-index: 1;
+        flex-wrap: wrap;
+        align-content: center;
+        position: relative;
+        bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .loremConleft {
+        width: 526px;
+        padding: 12px 0px;
+        margin: 12px 0px;
+        font-family: "Work Sans", sans-serif;
+        font-size: 14px;
+        flex-wrap: wrap;
+        line-height: 22px;
+        display: flex;
+        width: 280px;
+    }
+    .conRight-d1 {
+        height: 280px;
+        width: 280px;
+    }
+}

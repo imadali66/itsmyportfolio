@@ -1,0 +1,371 @@
+/* Import Fonts Here  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Playwrite+AR:wght@100..400&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap'); 
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+/*Import All Font Family Inside The Root*/
+:root {
+    font-family: "Work Sans", sans-serif;
+    font-family: "Mukta", sans-serif;
+    font-family: "Playwrite AR", cursive;
+    font-family: 'Redressed', cursive;
+    font-family: 'Comfortaa', cursive;
+
+
+
+    --comfortaa: 'Comfortaa', cursive;
+    --redressed: 'Redressed', cursive;
+    --dark: #1c1c1c;
+    --light: #ffffff;
+    --teal: #1000f1;
+}
+
+
+
+.mainContainerFirst{
+  overflow: hidden;
+}
+#mainHead {
+    font-family: "Mukta", sans-serif;
+    width: 100%; 
+    color: #fff; 
+    overflow: hidden;
+}
+
+.mainBackground {
+    height: 100vh;
+    background: #343a40; 
+}
+
+#nav {
+    position: relative;
+    top: 20px; 
+    padding: 12px 9px;
+}
+
+.logo {
+    font-size: 27px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+    cursor: default;
+    font-family: "Playwrite AR", cursive;
+}
+
+.logo span {
+    color: rgb(111, 111, 111);
+    font-family: "Playwrite AR", cursive;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around !important;
+}
+
+.nav-Flex {
+    display: flex;
+}
+
+.nav-Flex li {
+    list-style: none;
+}
+
+.nav-Flex li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-left: 20px;
+    /* border: 2px solid #111; */
+    border-radius: 12px;
+    padding: 9px 12px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.nav-Flex-active {
+    color: rgb(111, 111, 111) !important;
+    text-decoration: underline !important;
+    text-underline-offset: 50% !important;
+}
+
+.nav-Flex li a:hover {
+    text-decoration: underline;
+    color: rgb(111, 111, 111);
+    text-underline-offset: 50%;
+}
+
+/* hamburger */
+.hamBurger {
+    display: none;
+    justify-content: space-around;
+}
+
+.menu {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.menu span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: #000000;
+    transition:0.3s ease;
+}
+
+.menu span:nth-child(1) {
+    width: 30px;
+}
+
+.menu span:nth-child(2) {
+    width: 25px;
+    background-color: #ffffeb;
+}
+
+.menu:hover span {
+    background-color: #666;
+}
+
+.nav-Col {
+    position: absolute;
+    right: 0;
+    border-radius: 12px;
+    background-color: #ffffff1c;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    backdrop-filter: blur(20px);
+    text-decoration: underline;
+    text-underline-offset: 50%;
+    top: 0px;
+    z-index: 999;
+}
+
+.nav-Col li {
+    list-style: none;
+}
+
+.nav-Col li a {
+    list-style: none;
+    color: rgb(0, 55, 255);
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.nav-Col ic {
+    font-weight: 800;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    right: 40px;
+    top: 35px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-bottom: 2px solid rgba(56, 55, 55, 0.325);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 5px -2spx 10px red;
+}
+
+.nav-Col ic:hover {
+    color: #368faa72;
+    transition: all 0.3s ease-in;
+}
+
+
+/* hamburger Done */
+
+
+
+/* mainContent */
+
+#mainContent {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    top: 50px;
+    gap: 5px;
+    /* overflow: hidden; */
+}
+
+.conItems {
+    /* border: 2px solid black; */
+    width: 50%;
+    height: 100%;
+}
+
+.conRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.conRight-d1 {
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid #111; */
+    border-radius: 50% 20% 50% 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0a404142;
+    width: 100%;
+}
+
+.conRight-d2 {
+    height: 350px;
+    width: 350px;
+    /* border: 2px solid #000000; */
+    border-radius: 50%;
+    background-color: #0d081240;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    position: relative;
+    bottom: 24px;
+    border-radius: 95% 88% 42% 42%;
+}
+
+
+
+
+/* LeftContItems */
+p {
+    font-size: 1rem;
+    color: var(--light);
+    font-family: var(--comfortaa);
+}
+
+.typed-text {
+    font-size: 30px;
+    color: var(--teal);
+    font-family: "Playwrite AR", cursive;
+}
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    margin-left: 4px;
+    background: var(--teal);
+}
+
+.cursor.blink {
+    animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        background: var(--teal);
+    }
+
+    40%,
+    50% {
+        background: transparent;
+    }
+}
+
+.conLeft {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    z-index: 1;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.headtxt {
+    line-height: 56px;
+    color: rgba(255, 255, 255, 0.899);
+}
+
+.hey {
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+.contName {
+    font-size: 4rem;
+}
+.btns{
+    display: flex;
+    gap: 14px;
+}
+.btns button {
+    border: 2px solid #2600ff;
+    padding: 8px 19px;
+    border-radius: 8px;
+    font-size: 19px;
+    font-family: var(--comfortaa);
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+    transition: 0.4s ease-in-out 0.2s;
+    color: #adaaaa;
+}
+
+.btns button:nth-child(1) {
+    border: none;
+    padding: 8px 19px;
+    border-radius: 8px;
+    font-size: 19px;
+    font-family: var(--comfortaa);
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(106, 106, 106);
+    background: #0741ff;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 12px rgb(1, 1, 1);
+}
+
+.btns button:hover {
+    border: none;
+    border-radius: 8px;
+    /* font-size: 19px; */
+    font-family: var(--comfortaa);
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.942);
+    background: #0015f9;
+    color: white;
+    font-weight: 100;
+}
+
+.loremConleft {
+    width: 526px;
+    color: rgba(255, 255, 255, 0.482);
+    padding: 12px 0px;
+    margin: 12px 0px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#cursorAbout{
+  border: 2px solid rgba(255, 255, 255, 0.262);
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.633);
+  z-index: 1;
+}

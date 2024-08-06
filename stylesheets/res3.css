@@ -1,0 +1,27 @@
+@media screen and (max-width:1300px) {
+    .Services{
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+    }
+    .itemSer{
+        width: 80%;
+    }
+    .mainSkills{ 
+        height: 100%;
+    } 
+}
+
+
+@media screen and (max-width:500px) {
+     .h-itemsServ{
+        font-size: 25px;
+     }
+     .iconImg img{
+        height: 200px ;
+        width: 200px;
+        border-radius: 13% 17% 15% 14% / 17% 16% 13% 10%;
+        cursor: pointer;
+        transition: 0.3s 0.1s ease-in;
+    } 
+}
